@@ -69,6 +69,7 @@ while running:
                 playerx_change = 1
             if event.key == pygame.K_SPACE:
                 if bullet_state == "ready":
+                    # get the current x coordinate of the player
                     bulletx = playerx
                     fire_bullet(playerx, bullety)
 
