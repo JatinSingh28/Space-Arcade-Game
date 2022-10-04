@@ -95,7 +95,7 @@ def game_over_text():
     screen.blit(over_text, (200, 250))
 
 
-# game loop
+# Game loop
 running = True
 while running:
 
