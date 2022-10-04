@@ -16,7 +16,7 @@ icon = pygame.image.load('Images/alien.png')
 pygame.display.set_icon(icon)
 
 # Backgound Sound
-mixer.music.load("Sounds/backgroun.wav")
+mixer.music.load("Sounds/background.wav")
 mixer.music.play(-1)
 
 # Player
@@ -95,7 +95,7 @@ def game_over_text():
     screen.blit(over_text, (200, 250))
 
 
-# game loop
+# Game loop
 running = True
 while running:
 
